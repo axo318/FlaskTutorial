@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<! The head part of the html page acts as a title setter, settings section, and style options>
+<head>
+    <meta charset="UTF-8">
+    <title>Your First Title</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="icon" href="">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+</head>
+
+<! Any body of the web page goes here - what do we want to be present throughout? >
+<body>
+    <! This section will contain each individual page's html>
+
+    {% block content %}
+    {% endblock %}
+
+    <! The footer will be at the bottom of every html page, useful for copyright and authors!>
+    <footer>
+        <div class="row">
+            <p> Footer ?</p>
+        </div>
+    </footer>
+
+</body>
+</html>

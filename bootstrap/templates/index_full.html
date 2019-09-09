@@ -1,0 +1,37 @@
+{% extends "base_full.html" %}
+<head>
+    <style>
+
+    </style>
+</head>
+
+{% block content %}
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h1>Title 1</h1>
+        <p class="lead"> Bootstrap</p>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-lg-3 col-xl-3">
+
+        </div>
+        <div class="col-md-6 col-lg-3 col-xl-3">
+          <h2>Title 2</h2>
+          <p>asjhadkshfkjhekjfhkjsdhfjkshdjkfs.</p>
+          <p><a href=" {{ url_for('buttons') }} " target="_blank" class="btn btn-warning">Button Page&raquo;</a></p>
+        </div>
+        <div class="col-md-6 col-lg-3 col-xl-3">
+          <h2>Title 3</h2>
+          <p>asjhadkshfkjhekjfhkjsdhfjkshdjkfs.</p>
+          <p><a href=" " target="_blank" class="btn btn-warning">Button 2 &raquo;</a></p>
+        </div>
+        <div class="col-md-6 col-lg-3 col-xl-3">
+          <h2>Title 4</h2>
+          <p>asjhadkshfkjhekjfhkjsdhfjkshdjkfs.<p>
+          <p><a href="" target="_blank" class="btn btn-warning">Button 3 &raquo;</a></p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
