@@ -33,6 +33,7 @@ def login():
 Here we have to retrieve the username and password that the user has submitted from the login page and check them
 If they are right, we have to serve the page 'home.html' to the user, passing the username as a parameter in render_template
 If they are wrong, we have to redirect the user back to login, using the redirect(url_for()) method with 'login' as parameter
+	also you can add a msg variable if you want the user to see a msg displayed: url_for('login', msg="Wrong Login")
 
 '''
 @app.route('/auth')
